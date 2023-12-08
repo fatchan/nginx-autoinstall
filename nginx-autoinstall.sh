@@ -41,6 +41,7 @@ NGINX_OPTIONS=${NGINX_OPTIONS:-"
 # Define modules
 NGINX_MODULES=${NGINX_MODULES:-"--with-threads \
 	--with-file-aio \
+	--with-http_geoip_module \
 	--with-http_ssl_module \
 	--with-http_v2_module \
 	--with-http_mp4_module \
